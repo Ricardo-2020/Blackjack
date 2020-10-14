@@ -7,10 +7,15 @@ public class Card {
 
     private Color color;
 
+    public Card(Suit suit, int value){
+        this.suit = suit;
+        this.value = value;
+    }
+    
     // methods - getters
 
     public Suit getSuit() {
-        return this.suit
+        return this.suit;
     }
 
     public int getValue() {
